@@ -1,0 +1,40 @@
+body{
+    padding:20px;
+    background: #fbfbfb;
+}
+
+#main
+{
+    display: block;
+    margin:20px auto;
+    width:600px;
+    height:600px;
+    padding:10px 50px 70px 50px;
+    background: white;
+    box-shadow: 1px 1px 2px #7f7f7f;
+}
+
+#canvas{
+    float:left;
+    margin-top: -406px;
+    width:100%;
+    border:1px solid black;
+}
+#new
+{
+    margin-right:50px;
+}
+
+#imageView{
+    width:100%;
+    border: 1px solid blue;
+}
+
+#toolbar{
+    width: 96%;
+    height: auto;
+    border: 1px solid black;
+    padding:2%;
+}
+
+

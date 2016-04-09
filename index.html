@@ -1,0 +1,36 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <title>HTML5 Draw!</title>
+        <meta name="description" content="">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="main">
+            <h1>HTML 5 Draw!</h1>
+
+            <div id="toolbar">
+                <button id="new"><img src="img/new.png"></button>
+
+                <button id="line"><img src="img/line.png"></button>
+                <button id="pencil"><img src="img/pencil.png"></button>
+                <button id="rectangle"><img src="img/square.png"></button>
+                <button id="circle"><img src="img/circle.png"></button>
+                <button id="eraser"><img src="img/eraser.png"></button>
+            </div>
+
+            <canvas id="imageView" width="600px" height="400px"></canvas>
+            <canvas id="canvas" width="600px" height="400px"></canvas>
+        </div>
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
